@@ -1,24 +1,5 @@
 from die import Die
 import pygal
-"""
--O usuário seleciona a quantidade de dados e seus respectivos tipos (max 2)
--O usuário seleciona a quantidade de vezes pelo qual os dados são lançados (max 50.000)
--O usuário pode optar por pegar os resultados para visualizar uma RandomWalk
-"""
-
-"""
-1-O usuário escolhe a quantidade de dados que quer lançar
-2-O usuário escolhe o respectivo tipo de cada um
-3-Conforme os dados são escolhidos, eles são adicionados em uma lista (dies)
-4-Efetuo a soma dos valores máximos dos dados para facilitar as labels
-5-O usuário seleciona a quantidade de vezes pelo qual o dado é lançado
-6-Os dados são lançados e os valores são armazenados em uma lista (results)
-7-Através de outro laço (for), faço a contagem de valores repetidos (count) e adiciono na lista de frequencia
-8-Coloco os valores (conforme o somatorio) como labels em uma lista
-9-Criaremos o histograma no pygal e adicionamos as labels e valores conforme o que já temos
-10-Com tudo pronto, salvaremos em um svg e está pronta a visualização
-11*-Tudo isto em um while, ou seja, o processo pode ser refeito
-"""
 
 while True:
     dies = []
